@@ -21,3 +21,4 @@ Route::get('/contact', function () {
 return view('pages.contact');
 });
 
+Route::get('/getrequest/{name}/{age}', 'requestController@index');
